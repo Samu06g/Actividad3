@@ -9,16 +9,16 @@ public class ConversorTemperaturas {
 	float value = scan.nextFloat();
 	System.out.println("  Ingrese 1 para el convertidor de Celsius a Fahrenheit....");
 	System.out.println("  Ingrese 2 para el convertidor de Fahrenheit a Celsius....");
-	System.out.print("\nnIngrese su valor aquí...   ");
+	System.out.println("\nnIngrese su valor aquí...   ");
 	int ans = scan.nextInt();
 	if (ans == 1) {
 		float value1 = (float) ((value*(1.8))+32);
-		System.out.print("Tu conversión está aquí.. "+value1+"�F");
+		System.out.println("Tu conversión está aquí.. "+value1+"�F");
 		}
 	if (ans == 2) {
 			float value2 = (float) (value-32);
 			float value3 = (float) (value2*(5)/9);
-			System.out.print("Tu conversión está aquí.. "+value3+"�C");
+			System.out.println("Tu conversión está aquí.. "+value3+"�C");
 		}
 	System.out.println("\n\t¡¡Gracias!!..");
 	}
